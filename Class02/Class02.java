@@ -11,7 +11,9 @@ class is_prime{
 				s++;
 			}
 		}
-		if(s!=0) {
+		if(n==2){
+			System.out.println("Yes");
+		}else if(s!=0) {
 			System.out.println("No");
 		}else if(s==0) {
 			System.out.println("Yes");
